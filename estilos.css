@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cabecera {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #2C3E50;
+}
+.titulo {
+    margin: 0;
+    color:yellow;
+}
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.menu {
+    list-style: none;   
+    display: flex;      
+    gap: 1rem;          
+    margin: 0;
+    padding: 0;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.menu a:hover {
+    color: #E74C3C;
+}
+
+.contenido-principal {
+    padding: 1rem;
+    flex-grow: 1;       
+}
+
+.tarjeta {
+    background: #fff;
+    border-radius: 10px;
+    width: min(900px, 95%);
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ddd;
+}
+
+.listas {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.lista {
+    padding-left: 20px;
+}
+.lista li {
+    margin: 0.25rem 0;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+.tabla td, .tabla th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.tabla th {
+    background: #2C3E50;
+    color: #fff;
+    text-align: center;
+}
+.table td {
+    text-align: left;
+    white-space: nowrap;       
+}
+
+.pie {
+    text-align: center;
+    padding: 1rem;
+    color: #7f8c8d;
+    font-size: 14px;
+    background: #2C3E50;
+}
