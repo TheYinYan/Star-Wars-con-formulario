@@ -1,16 +1,11 @@
-## Ejercicio del formulario
+![Imagen](imagenes/logo.png)
 
-[Readme Principal](/README.md)
+- [HTML Index](index.html)
 
-![Imagen](/Unidad_2/Ejercicio_Formulario/imagenes/logo.png)
+- [HTML Cuenta](page/formulario.html)
 
-- [HTML Index](/Unidad_2/Ejercicio_Formulario/index.html)
+- [HTML Contactos](page/Contacto.html)
 
-- [HTML Cuenta](/Unidad_2/Ejercicio_Formulario/page/formulario.html)
-
-- [HTML Contactos](/Unidad_2/Ejercicio_Formulario/page/Contacto.html)
-
-- [HTML Tienda](/Unidad_2/Ejercicio_Formulario/page/tienda.html)
-
-
+- [HTML Tienda](page/tienda.html)
+  
 - [CSS](/Unidad_2/Ejercicio_Formulario/estilos.css)
